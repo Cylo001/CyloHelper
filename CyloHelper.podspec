@@ -16,21 +16,22 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CyloHelper"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "自己项目中常用的方法集中一下"
-  spec.description  = "自己项目中常用的一些方法，集中整理一下"
+#  spec.description  = "自己项目中常用的一些方法，集中整理一下"
   spec.license      = "MIT"
   spec.homepage     = "https://github.com/Cylo001/CyloHelper"
-  spec.source       = {:git=>"https://github.com/Cylo001/CyloHelper.git",:tag =>"#{spec.version}"}
-  spec.source_files = "CyloHelper/CyloStaticMethods/*.{h,h}"   
-
+#  spec.source       = {:git=>"https://github.com/Cylo001/CyloHelper.git",:tag =>"#{spec.version}"}
+  spec.source_files = "CyloHelper/CyloStaticMethods/*.{h,m}"   
+  spec.author        = { "Cylo001" => "37990425+Cylo001@users.noreply.github.com" }
+  spec.platform     = :ios, "9.0"
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  #  spec.description  = <<-DESC
+  #                 DESC
 
   # spec.homepage     = "http://EXAMPLE/CyloHelper"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -57,7 +58,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Cylo001" => "37990425+Cylo001@users.noreply.github.com" }
+  #spec.author             = { "Cylo001" => "37990425+Cylo001@users.noreply.github.com" }
   # Or just: spec.author    = "Cylo001"
   # spec.authors            = { "Cylo001" => "37990425+Cylo001@users.noreply.github.com" }
   # spec.social_media_url   = "https://twitter.com/Cylo001"
@@ -84,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # spec.source       = { :git => "http://EXAMPLE/CyloHelper.git", :tag => "#{spec.version}" }
+     spec.source       = { :git => "https://github.com/Cylo001/CyloHelper.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
