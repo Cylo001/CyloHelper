@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CyloHelper"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "自己项目中常用的方法集中一下"
 #  spec.description  = "自己项目中常用的一些方法，集中整理一下"
   spec.license      = "MIT"
